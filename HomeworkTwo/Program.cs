@@ -1,17 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HomeworkTwo
 {
     class Program
     {
         /// TASK: Three parameters: Nominal of the transaction, Trade price, Transaction Type (Buy, sell), Sign (1 for buy, -1 for sell)
-       
         enum Transactiontype
         {
             Buy = 1,
