@@ -8,11 +8,6 @@ namespace HomeworkTwo
     class Program
     {
         // TASK: Three parameters: Nominal of the transaction, Trade price, Transaction Type (Buy, sell), Sign (1 for buy, -1 for sell)
-        enum Transactiontype
-        {
-            Buy = 1,
-            Sell = -1
-        }
         static void Main(string[] args)
         {
             Console.WriteLine("Please input the amount of securities you would like to trade: ");
